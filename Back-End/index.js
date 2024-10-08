@@ -8,12 +8,13 @@ import { customerRouter } from './route/customer.js';
 
 
 
-// server Setup 
+ 
 const app = express();
 const PORT = 3020;
 
 db
-// middlewares
+
+
 app.use(bodyParser.json())
 app.use(cors());
 app.use('/product', productRouter)
