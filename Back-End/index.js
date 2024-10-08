@@ -5,15 +5,11 @@ import bodyParser  from 'body-parser';
 import db from './dataBase.js';
 import { productRouter } from './route/product.js';
 import { customerRouter } from './route/customer.js';
-
-
-
  
 const app = express();
 const PORT = 3020;
 
 db
-
 
 app.use(bodyParser.json())
 app.use(cors());
