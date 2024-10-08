@@ -16,7 +16,7 @@ const upload = multer({ storage: storage }).single('image_url');
 
 const uploadProductImage = multer({ storage: storage }).single('product_image');
 
-// Use upload middleware for handling image upload
+
 router.route('/createCategory').post(upload, createCategory);
 router.route('/getCategory').get(getCategory);
 router.route('/createSubCategory').post(createSubCategory);
