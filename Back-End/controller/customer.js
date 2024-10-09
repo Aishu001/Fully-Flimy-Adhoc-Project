@@ -18,5 +18,5 @@ export const createCustomer = (req, res) => {
 };
 
 export const creatOrder = (req, res) => {
-    
+                                
 }
