@@ -16,6 +16,8 @@ app.use(cors());
 app.use('/product', productRouter)
 app.use('/customer', customerRouter)
 
+
 app.listen(PORT , () => {
     console.log(`Server is running in ${PORT}`);
 })
+
