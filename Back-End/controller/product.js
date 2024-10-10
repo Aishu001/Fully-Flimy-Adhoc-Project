@@ -131,3 +131,4 @@ export const getProductBySubCategoryId = (req, res) => {
         res.status(200).json({ products: results });
     });
 };
+
