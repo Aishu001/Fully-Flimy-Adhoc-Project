@@ -17,8 +17,8 @@
   }
 
   .carousel1{
-    width: 910px;
+    width: 900px;
     padding: 20px;
-    border: 1px rgb(110, 108, 108) solid;
+    border: 0.5px rgb(110, 108, 108) solid;
     border-radius: 10px;
   }

@@ -10,14 +10,14 @@ function Section() {
   const imgCarosuel = ['three.jpg', 'one.jpg', 'two.png','four.jpg','five.png'];
 
   const settings = {
-    dots: true,             // Show dots for navigation
-    infinite: true,         // Loop infinitely
-    speed: 900,             // Increase speed for smoother animation
-    slidesToShow: 3,        // Show 3 slides at once
-    slidesToScroll: 1,      // Scroll one slide at a time
-    autoplay: true,         // Enable automatic sliding
-    autoplaySpeed: 2000,    // Adjust for smoother transition time between slides
-    cssEase: 'ease-in-out', // Apply a smooth easing effect
+    dots: true,             
+    infinite: true,         
+    speed: 900,             
+    slidesToShow: 3,        
+    slidesToScroll: 1,      
+    autoplay: true,         
+    autoplaySpeed: 2000,    
+    cssEase: 'ease-in-out',
   };
   
 
@@ -53,8 +53,10 @@ function Section() {
           </Grid>
         </Grid>
       </Box>
+
     </>
   );
 }
 
 export default Section;
+

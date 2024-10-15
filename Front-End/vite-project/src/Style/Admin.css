@@ -1,0 +1,48 @@
+/* Layout.css */
+.layout {
+    display: flex;
+  }
+  
+  .content {
+    margin-left: 300px; /* Same width as the sidebar */
+    padding: 20px;
+    flex: 1;
+    /* border: 2px solid blanchedalmond; */
+  }
+  
+  /* Sidebar.css */
+.sidebar {
+    width: 200px;
+    background-color: #16518c;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+    padding: 10px;
+    border-bottom: 1px solid white;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+   
+  }
+  
+  .sidebar ul li:hover {
+   
+    border-bottom: 1px solid #167de4;
+  }
+  

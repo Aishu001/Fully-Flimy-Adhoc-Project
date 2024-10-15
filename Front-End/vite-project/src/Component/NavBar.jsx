@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Style/NavBar.css'
 import { CiUser } from "react-icons/ci";
+import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
@@ -17,8 +18,7 @@ function NavBar() {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="navbar-user">
-      
-        <CiUser />
+      <Link to='/login'><CiUser /></Link>  
       </div>
     </nav>
   );
