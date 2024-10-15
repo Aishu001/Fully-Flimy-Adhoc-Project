@@ -1,6 +1,7 @@
+import { createCategory, createProduct, createSubCategory, getCategory, getProductById, getProductBySubCategoryId, getProducts, getSubCategory } from '../controller/product.js';
 import express from 'express';
 import multer from 'multer';
-import { createCategory, createProduct, createSubCategory, getCategory, getProductById, getProductBySubCategoryId, getProducts, getSubCategory } from '../controller/product.js';
+
 
 const router = express.Router();
 // Set up storage for multer

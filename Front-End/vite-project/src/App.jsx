@@ -7,6 +7,7 @@ import NavBar from './Component/NavBar'
 import LoginPage from './Component/LoginPage'
 import AdminDashboard from './Component/AdminDashboard'
 import Layout from './Component/Layout'
+import Category from './Component/Category'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
      <Route path="/login" element={<LoginPage/>} />
      <Route path="/" element={<Layout/>}>
           <Route path="dashboard" element={<AdminDashboard/>} />
+          <Route path="product" element={<Category/>} />
           
         </Route>        
 

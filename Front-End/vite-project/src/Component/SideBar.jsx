@@ -8,7 +8,7 @@ function SideBar() {
    <div className="sidebar">
       <ul>
         <li><Link to="dashboard">Dashboard</Link></li>
-        <li>Product</li>
+        <li><Link to="product">Product</Link></li>
         <li>Customer</li>
       
       </ul>
